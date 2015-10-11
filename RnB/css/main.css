@@ -1,0 +1,81 @@
+@media screen and (max-width: 500px) {
+	.container {
+	    width: 280px;
+	    margin: 0 auto; 
+	}
+}
+.container {
+	width: 500;
+	margin: 0 auto;
+}
+
+
+.grid-container	{
+	position: absolute;
+	padding: 16px;
+	border-radius: 16px;
+	background: #B7B7B7;
+}
+
+.grid-cell {
+	width: 106.25px;
+	height: 106.25px;
+	margin-right: 15px;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 106.25px;
+  	white-space: nowrap;
+  	font-size: 50px;
+  	font-weight: 500;
+  	cursor: pointer;
+  	background: rgba(255, 255, 255, 0.7);
+}
+
+.grid-cell-red {
+	width: 106.25px;
+	height: 106.25px;
+	margin-right: 15px;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 106.25px;
+  	white-space: nowrap;
+  	font-size: 50px;
+  	font-weight: 500;
+  	cursor: pointer;
+  	background: #F44165;
+}
+
+.grid-cell-blue {
+	width: 106.25px;
+	height: 106.25px;
+	margin-right: 15px;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 106.25px;
+  	white-space: nowrap;
+  	font-size: 50px;
+  	font-weight: 500;
+  	cursor: pointer;
+  	background: #1DC4A5;
+}
+
+.grid-cell:last-child {
+	margin-right: 0;
+}
+
+.grid-row {
+	margin-bottom: 15px;
+}
+
+.grid-row:last-child {
+	margin-bottom: 0;
+}
+
+.grid-row:after {
+	content: "";
+	display: block;
+	clear:both;
+}
